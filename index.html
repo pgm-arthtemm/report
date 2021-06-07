@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,32 @@
   <link rel="stylesheet" href="./main.css">
   <title>Portfolio report</title>
 </head>
+
 <body>
   <main>
+    <div>
+      <h2>Portfolio Mailchimp Campaign</h2>
+      <p>The first time i tried to make an email, I filled in the page and did not know you had to make a survey before
+        adding it to the email. So after I finished making the email I went back to my mailchimp campaign and made a
+        survey.</p>
+      <p>After sending the finished email, some people found my mail in their spam folder, for others it just went to
+        their inbox.</p>
+      <p>Wednesday June 2nd, I sent my mailchimp campaign to 30 e-mail addresses.</p>
+      <p>Sunday June 6th, I saw that 24 people opened my mail and 19 of those have filled in the survey.</p>
+      <img src="./img/mailchimp.JPG" alt="mailchimp">
+      <p>In the survey there were 3 questions.</p>
+      <ul class="question__list">
+        <li class="question__list--item">What would you rate the landing page?</li>
+        <li class="question__list--item">Is the website easy to use?</li>
+        <li class="question__list--item">Do you have any tips or overall feedback?</li>
+      </ul>
+    </div>
+
     <div class="landingRating">
       <div class="landingRating__text">
         <h2>What would you rate the landing page?</h2>
-        <p>We recieved a lot of different responses on this question. We are happy to see that most of the reponses are very positive.</p>
+        <p>We recieved a lot of different responses on this question. We are happy to see that most of the reponses are
+          very positive.</p>
       </div>
       <div class="container">
         <canvas id="myChart"></canvas>
@@ -26,39 +47,57 @@
       </div>
       <div class="easyToUse__text">
         <h2>Is the website easy to use?</h2>
-        <p>I'm happy to say that nobody has answered 'Not at all'. But the other 2 answers are pretty even with 'Just about' taking the lead by one vote. We will continue to improve the user experience while we are developing this website.</p>
+        <p>I'm happy to say that nobody has answered 'Not at all'. But the other 2 answers are pretty even with 'Just
+          about' taking the lead by one vote. We will continue to improve the user experience while we are developing
+          this website.</p>
       </div>
     </div>
 
     <div class="feedback">
       <h2>Do you have any tips or overall feedback?</h2>
-      <p>We are very happy to see a lot of usefull tips and feedback from the people. We will definitely read this carefully and make adjustments where needed.</p>
+      <p>We are very happy to see a lot of usefull tips and feedback from the people. We will definitely read this
+        carefully and make adjustments where needed.</p>
       <ul>
-          <li>"Link was a bit hidden in the email, not really sure where to click to access the website. For mobile-view I would maybe add a subtle small gray-ish line beneath each project to seperate them more visually. Also when you click on anything of the detail it could collapse, so maybe add a '^'-sort of button to open and close them?"</li>
-          <li>"Really nice! Pictures of teh website in the detail of your projects might be a good addition."</li>
-          <li>"misschien een linkje naar het project als je er op klikt."</li>
-          <li>"I'm guessing not all aspects of the website are finished?"</li>
-          <li>"The controls of the donut on the landings page is a bit weird to use. I would assume going up or down with my mouse would do the same. But it goes left instead. The site itself looks very clean and minimalistic and doesn't need to be changed."</li>
-          <li>"No"</li>
-          <li>"Nice and clean design. Especially the projects overview!"</li>
-          <li>"Try to make the information desplayed accessible to users with screen readers or who prefer reduced motion."</li>
-          <li>"none at the moment"</li>
-          <li>"Design (contact) Let's the finihsed projects (with a link)"</li>
-          <li>"No, looks very nice!"</li>
-        </ul>
+        <li>"Link was a bit hidden in the email, not really sure where to click to access the website. For mobile-view I
+          would maybe add a subtle small gray-ish line beneath each project to seperate them more visually. Also when
+          you click on anything of the detail it could collapse, so maybe add a '^'-sort of button to open and close
+          them?"</li>
+        <li>"Really nice! Pictures of teh website in the detail of your projects might be a good addition."</li>
+        <li>"misschien een linkje naar het project als je er op klikt."</li>
+        <li>"I'm guessing not all aspects of the website are finished?"</li>
+        <li>"The controls of the donut on the landings page is a bit weird to use. I would assume going up or down with
+          my mouse would do the same. But it goes left instead. The site itself looks very clean and minimalistic and
+          doesn't need to be changed."</li>
+        <li>"No"</li>
+        <li>"Nice and clean design. Especially the projects overview!"</li>
+        <li>"Try to make the information desplayed accessible to users with screen readers or who prefer reduced
+          motion."</li>
+        <li>"none at the moment"</li>
+        <li>"Design (contact) Let's the finihsed projects (with a link)"</li>
+        <li>"No, looks very nice!"</li>
+      </ul>
     </div>
-</main>
 
+    <div class="conclusion">
+      <h2>Conclusion</h2>
+      <p>I found that mailchimp is very usefull to reach a lot of people with a professional-looking email. It is really
+        easy to see many people opened your mail and how many people filled in the survey. This tells you if people were
+        actually interessed in your email.</p>
+      <p>Setting up a professional-looking email is very easy. Drag and drop components and easily edit the size, color
+        is a very fast way to make a interesting email.</p>
+      <p>The responses to the survey showed me that I need to improve the usability of my portfolio. Some tips I got is
+        to make it more accessible to screenreader users and add icons to show that the project titles are clickable.
+        Another tip was adding images to the projects. Somebody also suggested I added the link to the github repository
+        for the projects. This feature has already been added.</p>
+    </div>
+  </main>
   <footer>
     <div>
       <h3>Arthur Temmerman - PGM ArteveldeHogeschool</h3>
       <p>This website was created for IT Business. Assignment: report the results of a mailchimp campaign.</p>
     </div>
   </footer>
-  
-
-  <script src="./main.js">
-    
-  </script>
+  <script src="./main.js"></script>
 </body>
+
 </html>
